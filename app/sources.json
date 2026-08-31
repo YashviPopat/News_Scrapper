@@ -5,49 +5,49 @@
       "type": "rss",
       "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128821153.cms",
       "region": "Gujarat",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Times of India — India",
       "type": "rss",
       "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
       "region": "National",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "DeshGujarat",
       "type": "rss",
       "url": "https://deshgujarat.com/feed/",
       "region": "Gujarat",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Indian Express — India",
       "type": "rss",
       "url": "https://indianexpress.com/section/india/feed/",
       "region": "National",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "The Hindu — National",
       "type": "rss",
       "url": "https://www.thehindu.com/news/national/feeder/default.rss",
       "region": "National",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Economic Times — Top Stories",
       "type": "rss",
       "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
       "region": "National",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Hindustan Times — India",
       "type": "rss",
       "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
       "region": "National",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "PIB — Press Releases (Hindi)",
