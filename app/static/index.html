@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gujarat News Intelligence</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦁</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">GJ</div>
+    <div>
+      <h1>Gujarat News Intelligence</h1>
+      <p class="tagline">Policies &amp; innovations worth bringing home</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <span id="llm-badge" class="badge badge-muted">…</span>
+    <button id="btn-prefs" class="btn btn-ghost" title="Preferences">⚙ Preferences</button>
+    <button id="btn-run" class="btn btn-primary">▶ Run Pipeline</button>
+  </div>
+</header>
+
+<div id="run-banner" class="run-banner hidden">
+  <div class="spinner"></div>
+  <span id="run-text">Scraping sources…</span>
+  <div class="progress"><div id="run-progress" class="progress-fill"></div></div>
+</div>
+
+<section class="stats-row" id="stats-row">
+  <div class="stat-card"><span class="stat-num" id="stat-total">–</span><span class="stat-label">Articles collected</span></div>
+  <div class="stat-card"><span class="stat-num" id="stat-analyzed">–</span><span class="stat-label">Analyzed</span></div>
+  <div class="stat-card stat-accent"><span class="stat-num" id="stat-relevant">–</span><span class="stat-label">Relevant to Gujarat</span></div>
+  <div class="stat-card"><span class="stat-num" id="stat-pending">–</span><span class="stat-label">Awaiting analysis</span></div>
+</section>
+
+<section class="filters">
+  <div class="filter-group">
+    <input type="search" id="f-search" placeholder="Search title or description…">
+  </div>
+  <div class="filter-group">
+    <select id="f-domain">
+      <option value="">All domains</option>
+    </select>
+    <select id="f-minscore">
+      <option value="0">Any score</option>
+      <option value="40" selected>Score ≥ 40</option>
+      <option value="60">Score ≥ 60</option>
+      <option value="75">Score ≥ 75</option>
+    </select>
+    <label class="toggle">
+      <input type="checkbox" id="f-relevant" checked>
+      <span>Relevant only</span>
+    </label>
+  </div>
+</section>
+
+<main id="articles" class="articles">
+  <div class="empty-state" id="empty-state">
+    <div class="empty-icon">📰</div>
+    <h2>No articles yet</h2>
+    <p>Click <strong>Run Pipeline</strong> to scrape the configured news sources and analyze them for Gujarat relevance.</p>
+  </div>
+</main>
+
+<!-- Preferences modal -->
+<div id="modal" class="modal-backdrop hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h2>Preferences</h2>
+      <button id="modal-close" class="btn btn-ghost">✕</button>
+    </div>
+    <div class="modal-body">
+      <label class="field-label">Areas of interest <span class="hint">(one per line)</span></label>
+      <textarea id="pref-interests" rows="8"></textarea>
+      <label class="field-label">Ignore topics <span class="hint">(one per line)</span></label>
+      <textarea id="pref-ignore" rows="4"></textarea>
+      <label class="field-label">Minimum score to consider relevant</label>
+      <input type="number" id="pref-minscore" min="0" max="100">
+      <label class="field-label">Notes for the analyst <span class="hint">(free text, guides the AI)</span></label>
+      <textarea id="pref-notes" rows="3"></textarea>
+    </div>
+    <div class="modal-foot">
+      <button id="modal-save" class="btn btn-primary">Save preferences</button>
+    </div>
+  </div>
+</div>
+
+<template id="card-template">
+  <article class="card">
+    <div class="card-score">
+      <svg viewBox="0 0 44 44" class="ring">
+        <circle class="ring-bg" cx="22" cy="22" r="19"></circle>
+        <circle class="ring-fg" cx="22" cy="22" r="19"></circle>
+      </svg>
+      <span class="score-num"></span>
+    </div>
+    <div class="card-main">
+      <div class="card-tags">
+        <span class="tag tag-domain"></span>
+        <span class="tag tag-type"></span>
+        <span class="tag tag-origin"></span>
+        <span class="tag tag-mode"></span>
+      </div>
+      <h3 class="card-title"><a target="_blank" rel="noopener"></a></h3>
+      <p class="card-summary"></p>
+      <details class="card-details">
+        <summary>Why this matters for Gujarat</summary>
+        <p class="card-reason"></p>
+        <p class="card-impl"></p>
+        <div class="card-meta">
+          <div class="meta-block meta-departments"><h4>Departments</h4><div class="chips"></div></div>
+          <div class="meta-block meta-regions"><h4>Regions</h4><div class="chips"></div></div>
+          <div class="meta-block meta-scores"><h4>Scores</h4><div class="score-bars"></div></div>
+        </div>
+      </details>
+      <div class="card-foot">
+        <span class="card-source"></span>
+        <span class="card-date"></span>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

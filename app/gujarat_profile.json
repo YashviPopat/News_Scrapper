@@ -1,0 +1,194 @@
+{
+  "state": "Gujarat",
+  "overview": "Western Indian coastal state. ~70 million people. Highly industrialized, urbanizing fast, semi-arid to arid climate in large parts, longest coastline in India (~1600 km).",
+  "economy": {
+    "strengths": [
+      "Petrochemicals and refining (Jamnagar hosts the world's largest refinery)",
+      "Pharmaceuticals (~30% of India's pharma production)",
+      "Chemicals and dyes",
+      "Textiles and apparel (Surat is a global synthetic textile hub)",
+      "Diamond cutting and polishing (Surat processes ~90% of world's diamonds)",
+      "Ports and logistics (Mundra, Kandla — India's busiest ports)",
+      "Ceramics (Morbi produces ~90% of India's ceramic tiles)",
+      "Renewable energy (among India's top states in solar and wind capacity)",
+      "Automobile manufacturing (Sanand belt: Tata, MG, and suppliers)",
+      "Semiconductors (Dholera fab, Sanand OSAT plants under construction)",
+      "Dairy (Amul / Anand cooperative model)"
+    ],
+    "major_projects": [
+      "GIFT City (Gandhinagar) — international financial services centre",
+      "Dholera SIR — greenfield smart industrial city",
+      "Delhi–Mumbai Industrial Corridor segments",
+      "Mumbai–Ahmedabad bullet train (HSR)",
+      "Ahmedabad and Surat metro rail"
+    ]
+  },
+  "agriculture": {
+    "major_crops": [
+      "cotton",
+      "groundnut",
+      "castor",
+      "cumin",
+      "wheat",
+      "bajra (pearl millet)",
+      "tobacco",
+      "banana",
+      "mango (Kesar)",
+      "isabgul (psyllium)"
+    ],
+    "characteristics": [
+      "Semi-arid; irrigation-dependent (Narmada canal network, drip irrigation adoption)",
+      "Water scarcity in Saurashtra and Kutch; salinity ingress along coast",
+      "Strong dairy cooperative sector (Amul model)",
+      "Large livestock population; Banni grasslands buffalo, Gir cattle",
+      "NOT suited to high-rainfall crops: rubber, tea, coffee, coconut-heavy or paddy-dominant systems"
+    ]
+  },
+  "climate": {
+    "type": "Semi-arid to arid; hot summers (44°C+), erratic monsoon",
+    "risks": [
+      "drought",
+      "cyclones on coast (Kutch/Saurashtra)",
+      "flash floods in urban areas",
+      "heat waves",
+      "groundwater depletion",
+      "coastal salinity"
+    ]
+  },
+  "urban": {
+    "major_cities": [
+      "Ahmedabad",
+      "Surat",
+      "Vadodara",
+      "Rajkot",
+      "Gandhinagar",
+      "Bhavnagar",
+      "Jamnagar",
+      "Junagadh"
+    ],
+    "issues": [
+      "traffic congestion in Ahmedabad and Surat",
+      "air quality in industrial clusters",
+      "urban flooding (Surat, Ahmedabad)",
+      "affordable housing",
+      "solid waste management",
+      "last-mile public transport"
+    ]
+  },
+  "governance": {
+    "notable_programs": [
+      "Jyotigram Yojana (24x7 rural power with separated agri feeders)",
+      "SAUNI Yojana (Saurashtra Narmada water grid)",
+      "Sujalam Sufalam water conservation drive",
+      "iORA / online government service delivery",
+      "Vibrant Gujarat investor summits",
+      "Smart City missions in Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Dahod"
+    ],
+    "departments": [
+      {
+        "name": "Agriculture, Farmers Welfare and Cooperation Department, Gujarat",
+        "website": "https://agri.gujarat.gov.in/Index"
+      },
+      {
+        "name": "Climate Change Department, Gujarat",
+        "website": "https://ccd.gujarat.gov.in"
+      },
+      {
+        "name": "Education Department, Gujarat",
+        "website": "https://education.gujarat.gov.in"
+      },
+      {
+        "name": "Energy and Petro Chemicals Department, Gujarat",
+        "website": "https://guj-epd.gujarat.gov.in"
+      },
+      {
+        "name": "Finance Department, Gujarat",
+        "website": "https://financedepartment.gujarat.gov.in"
+      },
+      {
+        "name": "Food, Civil Supplies and Consumer Affairs Department, Gujarat",
+        "website": "https://fcsca.gujarat.gov.in"
+      },
+      {
+        "name": "Forests and Environment Department, Gujarat",
+        "website": "https://fed.gujarat.gov.in"
+      },
+      {
+        "name": "General Administration Department, Gujarat",
+        "website": "https://gad.gujarat.gov.in"
+      },
+      {
+        "name": "Health & Family Welfare Department, Gujarat",
+        "website": "https://gujhealth.gujarat.gov.in"
+      },
+      {
+        "name": "Home Department, Gujarat",
+        "website": "https://home.gujarat.gov.in"
+      },
+      {
+        "name": "Income Tax Department, Gujarat Region",
+        "website": "https://incometaxgujarat.gov.in"
+      },
+      {
+        "name": "Industries and Mines Department, Gujarat",
+        "website": "https://imd.gujarat.gov.in"
+      },
+      {
+        "name": "Information and Broadcasting Department, Gujarat",
+        "website": "https://gujaratinformation.gujarat.gov.in"
+      },
+      {
+        "name": "Labour and Employment Department, Gujarat",
+        "website": "https://labour.gujarat.gov.in"
+      },
+      {
+        "name": "Legal Department, Gujarat",
+        "website": "https://legal.gujarat.gov.in"
+      },
+      {
+        "name": "Legislative and Parliamentary Affairs Department, Gujarat",
+        "website": "https://lpd.gujarat.gov.in"
+      },
+      {
+        "name": "Narmada, Water Resources, Water Supply and Kalpsar Department, Gujarat",
+        "website": "https://guj-nwrws.gujarat.gov.in"
+      },
+      {
+        "name": "Panchayats and Rural Housing Department, Gujarat",
+        "website": "https://panchayat.gujarat.gov.in"
+      },
+      {
+        "name": "Ports and Transport Department, Gujarat",
+        "website": "https://pnt.gujarat.gov.in"
+      },
+      {
+        "name": "Revenue Department, Gujarat",
+        "website": "https://revenuedepartment.gujarat.gov.in"
+      },
+      {
+        "name": "Roads and Buildings Department, Gujarat",
+        "website": "https://rnb.gujarat.gov.in"
+      },
+      {
+        "name": "Science and Technology Department, Gujarat",
+        "website": "https://dst.gujarat.gov.in"
+      },
+      {
+        "name": "Social Justice and Empowerment Department, Gujarat",
+        "website": "https://sje.gujarat.gov.in"
+      }
+    ],
+    "departments_source": "https://igod.gov.in/sg/GJ/E003/organizations"
+  },
+  "needs_and_gaps": [
+    "Groundwater recharge and water-use efficiency in agriculture",
+    "Air and effluent pollution control in industrial clusters (Vapi, Ankleshwar, Morbi)",
+    "Skilled workforce for semiconductors, EVs, and green hydrogen",
+    "Urban mobility and congestion management",
+    "Coastal resilience against cyclones and salinity",
+    "Primary healthcare staffing in tribal eastern belt",
+    "Learning outcomes in government schools",
+    "MSME digitization and credit access",
+    "Heat-wave action planning (Ahmedabad pioneered India's first Heat Action Plan)"
+  ]
+}

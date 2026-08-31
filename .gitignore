@@ -1,0 +1,7 @@
+# Secrets — never commit
+.env
+
+# Runtime data
+data/
+__pycache__/
+*.pyc

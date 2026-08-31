@@ -1,0 +1,25 @@
+{
+  "target_state": "Gujarat",
+  "interests": [
+    "Transportation",
+    "Agriculture",
+    "Water Resources",
+    "Technology",
+    "Education",
+    "Healthcare",
+    "Industry & Economy",
+    "Energy",
+    "Urban Development",
+    "Environment & Climate",
+    "Governance & Policy"
+  ],
+  "ignore_topics": [
+    "Celebrity gossip",
+    "Sports scores",
+    "Routine crime reports",
+    "Astrology",
+    "Entertainment"
+  ],
+  "min_score_to_keep": 40,
+  "notes": "Interested in policies, schemes, and innovations from anywhere in India (or the world) that could realistically be implemented in Gujarat, plus news directly about Gujarat."
+}

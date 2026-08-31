@@ -1,0 +1,13 @@
+# Secrets — never bake into the image
+.env
+
+# Runtime data (lives in a volume, not the image)
+data/
+
+# Noise
+__pycache__/
+*.pyc
+.git/
+.gitignore
+README.md
+scripts/
