@@ -5,49 +5,49 @@
       "type": "rss",
       "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128821153.cms",
       "region": "Gujarat",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Times of India — India",
       "type": "rss",
       "url": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
       "region": "National",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "DeshGujarat",
       "type": "rss",
       "url": "https://deshgujarat.com/feed/",
       "region": "Gujarat",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Indian Express — India",
       "type": "rss",
       "url": "https://indianexpress.com/section/india/feed/",
       "region": "National",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "The Hindu — National",
       "type": "rss",
       "url": "https://www.thehindu.com/news/national/feeder/default.rss",
       "region": "National",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Economic Times — Top Stories",
       "type": "rss",
       "url": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
       "region": "National",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Hindustan Times — India",
       "type": "rss",
       "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
       "region": "National",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "PIB — Press Releases (Hindi)",
@@ -60,18 +60,16 @@
     {
       "name" : "Energy World",
       "type" : "rss",
-      "url" : "https://energy.economictimes.indiatimes.com/?utm_source=header_logo&utm_medium=newsDetail",
+      "url" : "https://energy.economictimes.indiatimes.com/rss/topstories",
       "region" : "National",
-      "enabled" : true,
-      "note" : "Feed content is not in RSS format. Enable only when using LLM analysis (heuristic mode cannot score non-RSS text)."
+      "enabled" : true
     },
     {
       "name" : "Infra News",
       "type" : "rss",
-      "url" : "https://infra.economictimes.indiatimes.com",
+      "url" : "https://infra.economictimes.indiatimes.com/rss/topstories",
       "region" : "National",
-      "enabled" : true,
-      "note" : "Feed content is not in RSS format. Enable only when using LLM analysis (heuristic mode cannot score non-RSS text)."
+      "enabled" : true
     }
   ]
 }
