@@ -31,6 +31,7 @@ def run_pipeline() -> dict:
     try:
         articles = scraper.scrape_all_sources()
         status["fetched"] = len(articles)
+        status["feed_errors"] = list(scraper.last_errors)
 
         new_count = 0
         for art in articles:

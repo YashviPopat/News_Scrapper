@@ -12,6 +12,9 @@ log = logging.getLogger("scraper")
 
 TAG_RE = re.compile(r"<[^>]+>")
 
+# Per-feed failures from the most recent scrape, surfaced via /api/scrape/status.
+last_errors: list[str] = []
+
 
 def strip_html(text: str | None) -> str:
     if not text:
@@ -30,6 +33,7 @@ def fetch_feed(source: dict) -> list[dict]:
         resp.raise_for_status()
     except requests.RequestException as e:
         log.warning("Feed failed: %s (%s)", source["name"], e)
+        last_errors.append(f"{source['name']}: {e}")
         return []
 
     parsed = feedparser.parse(resp.content)
@@ -76,6 +80,7 @@ def fetch_full_text(url: str) -> str:
 
 def scrape_all_sources() -> list[dict]:
     sources = config.load_json(config.SOURCES_PATH)["sources"]
+    last_errors.clear()
     all_articles: list[dict] = []
     for source in sources:
         if not source.get("enabled", True):
